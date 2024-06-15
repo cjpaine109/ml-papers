@@ -10,7 +10,7 @@ In this project, the ID3 algorithm is implemented to generate decision trees fro
 
 - `ID3_kaggle_dataset.ipynb`: A Jupyter Notebook demonstrating the ID3 algorithm on a Kaggle dataset.
 - `ID3_paper.py`: A Python script containing the implementation of the ID3 algorithm based on the original paper.
-- `data/`: Folder containing the datasets used in this project.
+- `Dataset`: Folder containing the datasets used in this project.
 - `requirements.txt`: List of required libraries and dependencies.
 - `README.md`: Documentation of the project.
 
