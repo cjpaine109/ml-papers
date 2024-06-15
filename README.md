@@ -5,6 +5,6 @@ This repository contains code implementations for various machine learning resea
 ## Papers and Corresponding Implementations
 
 ### 1. Induction of Decision Trees
-**Paper**: Quinlan, J.R. (1986). Induction of decision trees. *Machine Learning*, 1, 81–106. [DOI: 10.1007/BF00116251](https://doi.org/10.1007/BF00116251)
-
-**Implementation**: [Induction of Decision Trees](https://github.com/cjpaine109/ml-papers/tree/main/Induction%20of%20Decision%20Trees)
+**Paper**: Quinlan, J.R. (1986). Induction of decision trees. *Machine Learning*, 1, 81–106. [DOI: 10.1007/BF00116251](https://doi.org/10.1007/BF00116251)  
+**Implementation**: [Induction of Decision Trees](https://github.com/cjpaine109/ml-papers/tree/main/Induction%20of%20Decision%20Trees)  
+**Link to video**: [Watch Video](https://www.youtube.com/watch?v=n3fM4SzNxuk&t=13s)
