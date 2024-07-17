@@ -8,34 +8,15 @@ In this project, I explore a basic application of the Support Vector Machine (SV
 
 ## Mathematical Formulas for SVM
 
-1. **Condition for Update**:
-   $y_i \cdot (\mathbf{x}_i \cdot \mathbf{w} - b) \geq 1$
+1. **Margins**:
+   $M = \frac{2}{\|\mathbf{w}\|}$
 
-2. **Weights Update (if condition is met)**:
-   $\mathbf{w} := \mathbf{w} - \eta \cdot (2 \cdot \lambda \cdot \mathbf{w})$
-
-3. **Weights and Bias Update (if condition is not met)**:
-   $\mathbf{w} := \mathbf{w} - \eta \cdot (2 \cdot \lambda \cdot \mathbf{w} - \mathbf{x}_i \cdot y_i)$
-
-   $b := b - \eta \cdot y_i$
-
-4. **Linear Output for Prediction**:
-   $\text{linear\_output} := X \cdot \mathbf{w} + b$
-
-5. **Prediction**:
-   $\hat{y} := \text{sign}(\text{linear\_output})$
-
-6. **Margins**:
-   $M := \frac{2}{\|\mathbf{w}\|}$
-
-7. **Main Hyperplane**:
+2. **Main Hyperplane**:
    $\mathbf{w} \cdot \mathbf{x} - b = 0$
 
-8. **Cost Function (Hinge Loss)**:
-   $L(\mathbf{w}, b) := \frac{1}{2} \|\mathbf{w}\|^2 + C \sum_{i=1}^n \max(0, 1 - y_i (\mathbf{x}_i \cdot \mathbf{w} - b))$
+3. **Cost Function (Hinge Loss)**:
+   $L(\mathbf{w}, b) = \frac{1}{2} \|\mathbf{w}\|^2 + C \sum_{i=1}^n \max(0, 1 - y_i (\mathbf{x}_i \cdot \mathbf{w} - b))$
 
-9. **Prediction**:
-   $\hat{y} := \text{sign}(\mathbf{x} \cdot \mathbf{w} - b)$
 
 ## Files
 
