@@ -13,3 +13,7 @@ This repository contains code implementations for various machine learning resea
 **Paper**: Peng, C. Y. J., Lee, K. L., & Ingersoll, G. M. (2002). An Introduction to Logistic Regression Analysis and Reporting. *The Journal of Educational Research*, 96(1), 3–14. [DOI: 10.1080/00220670209598786](https://datajobs.com/data-science-repo/Logistic-Regression-[Peng-et-al].pdf)  
 **Implementation**: [Logistic Regression](https://github.com/cjpaine109/ml-papers/tree/main/An%20Introduction%20to%20Logistic%20Regression%20Analysis%20and%20Reporting)  
 **Link to video**: Coming Soon!
+
+### 3. Support-Vector Networks
+**Paper**: Cortes, C., & Vapnik, V. (1995). Support-Vector Networks. *Machine Learning*, 20(3), 273-297. [DOI: 10.1007/BF00994018](https://link.springer.com/article/10.1007/BF00994018)  
+**Implementation**: [Support-Vector Networks](https://github.com/cjpaine109/ml-papers/tree/main/Support-Vector%20Networks)
