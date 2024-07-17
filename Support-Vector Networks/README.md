@@ -8,30 +8,22 @@ In this project, I explore a basic application of the Support Vector Machine (SV
 
 ## Mathematical Formulas for SVM
 
-### Margins
-The margin \( M \) is defined as:
-$M = \frac{2}{\|\mathbf{w}\|}$
+1. **Condition for Update**:
+   $$y_i \cdot (\mathbf{x}_i \cdot \mathbf{w} - b) \geq 1$$
 
-### Inequality Conditions for Margins
-For a feature vector \(\mathbf{x}_i\) and its label \(y_i\):
-$y_i (\mathbf{w} \cdot \mathbf{x}_i - b) \geq 1$
+2. **Weights Update (if condition is met)**:
+   $$\mathbf{w} = \mathbf{w} - \eta \cdot (2 \cdot \lambda \cdot \mathbf{w})$$
 
-### Main Hyperplane
-The equation for the main hyperplane is:
-$\mathbf{w} \cdot \mathbf{x} - b = 0$
+3. **Weights and Bias Update (if condition is not met)**:
+   $$\mathbf{w} = \mathbf{w} - \eta \cdot (2 \cdot \lambda \cdot \mathbf{w} - \mathbf{x}_i \cdot y_i)$$
+   
+   $$b = b - \eta \cdot y_i$$
 
-### Cost Function (Hinge Loss)
-The hinge loss cost function \( L(\mathbf{w}, b) \) is given by:
-$L(\mathbf{w}, b) = \frac{1}{2} \|\mathbf{w}\|^2 + C \sum_{i=1}^n \max(0, 1 - y_i (\mathbf{x}_i \cdot \mathbf{w} - b))$
+4. **Linear Output for Prediction**:
+   $$\text{linear\_output} = X \cdot \mathbf{w} + b$$
 
-### Explanation of the Formulas:
-- $M$ represents the margin, which is inversely proportional to the norm of the weight vector \(\mathbf{w}\).
-- $y_i$ is the label of the \(i\)-th training example.
-- \(\mathbf{x}_i\) is the feature vector of the \(i\)-th training example.
-- \(\mathbf{w}\) represents the weights or parameters of the model.
-- $b$ is the bias term.
-- $C$ is the regularization parameter.
-- $\max(0, 1 - y_i (\mathbf{x}_i \cdot \mathbf{w} - b))$ represents the hinge loss for the \(i\)-th training example.
+5. **Prediction**:
+   $$\hat{y} = \text{sign}(\text{linear\_output})$$
 
 ## Files
 
