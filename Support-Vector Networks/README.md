@@ -6,6 +6,28 @@ This repository contains a Python implementation of the SVM algorithm. The model
 
 In this project, I explore a basic application of the Support Vector Machine (SVM) algorithm for a two-group classification problem using a linear kernel. The SVM algorithm is implemented from scratch to separate features in a two-dimensional space. The model aims to find the optimal hyperplane that maximizes the margin between two classes. Through this project, I demonstrate the principles of SVM, including the use of regularization and gradient descent for training the model.
 
+<<<<<<< HEAD
+=======
+## Mathematical Formulas for SVM
+
+1. **Condition for Update**:
+   $$y_i \cdot (\mathbf{x}_i \cdot \mathbf{w} - b) \geq 1$$
+
+2. **Weights Update (if condition is met)**:
+   $$\mathbf{w} = \mathbf{w} - \eta \cdot (2 \cdot \lambda \cdot \mathbf{w})$$
+
+3. **Weights and Bias Update (if condition is not met)**:
+   $$\mathbf{w} = \mathbf{w} - \eta \cdot (2 \cdot \lambda \cdot \mathbf{w} - \mathbf{x}_i \cdot y_i)$$
+   
+   $$b = b - \eta \cdot y_i$$
+
+4. **Linear Output for Prediction**:
+   $$\text{linear\_output} = X \cdot \mathbf{w} + b$$
+
+5. **Prediction**:
+   $$\hat{y} = \text{sign}(\text{linear\_output})$$
+
+>>>>>>> e2a6d2ad22262ef1c7a86f523c2902434101d346
 ## Files
 
 - `svm_2D_linear_seperable_test.ipynb`: A Jupyter Notebook demonstrating the SVM algorithm.
@@ -13,4 +35,10 @@ In this project, I explore a basic application of the Support Vector Machine (SV
 - `requirements.txt`: List of required libraries and dependencies.
 - `README.md`: Documentation of the project.
 
+<<<<<<< HEAD
 ## References
+=======
+## References
+
+other -> https://towardsdatascience.com/support-vector-machine-introduction-to-machine-learning-algorithms-934a444fca47
+>>>>>>> e2a6d2ad22262ef1c7a86f523c2902434101d346
